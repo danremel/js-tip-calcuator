@@ -9,6 +9,7 @@ var calculateTip = function() {
         alert("You must enter all values.");
         return;
     }
+
     // If people input is left blank, assume there is one person
     if (peopleCount === "" || peopleCount <= 1) {
         peopleCount = 1;
@@ -21,8 +22,12 @@ var calculateTip = function() {
 
     // Calculate the tip amount, then divide by number of people.
     var tipTotal = (billAmount * service) / peopleCount;
+
     // Round to two decimals
     tipTotal = Math.round(tipTotal * 100) / 100;
+
+    // Always display 2 decimal places
+    tipTotal = tipTotal.toFixed(2);
 
     // Print the total onto the page
     document.getElementById("tip-display").style.display = "block";

@@ -5,14 +5,15 @@ body {
 }
 button {
     width: 50%;
-    height: 35px;
+    height: 30px;
     border-radius: 5px;
     background: #ffffff;
-    background: linear-gradient(180deg, #ffffff 0%, #cdcdcd 100%);
+    color: #c76034;
+    font-weight: bold;
 }
 .container {
     width: 250px;
-    border: 3px solid #b55bc7;
+    border: 3px solid #1badba;
     box-shadow: 1px 7px 10px #aaa;
     display: flex;
     flex-direction: column;
@@ -23,6 +24,7 @@ button {
 }
 h5 {
     font-family: "Arimo", sans-serif;
+    color: #c76034;
     margin: 0;
     padding-bottom: 5px;
 }
@@ -34,7 +36,8 @@ input {
 }
 .title {
     font-family: "Sanchez", serif;
+    color: #c76034;
     margin: 0;
     padding: 10px;
-    border-bottom: 2px solid #b55bc7;
+    border-bottom: 2px solid #c76034;
 }

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Sanchez" rel="stylesheet">
     <title>Tip Calculator</title>
 </head>
 
@@ -16,7 +17,7 @@
         <form>
             <div class="section">
                 <h5>How much is the bill?</h5>
-                $ <input id="bill-amount" type="text" placeholder="Enter bill amount">
+                $ <input id="bill-amount" type="number" placeholder="Enter bill amount">
             </div>
             <div class="section">
                 <h5>How was the service?</h5>
@@ -32,10 +33,10 @@
         </form>
         <div class="section">
             <h5>How many people are splitting the tip?</h5>
-            <input id="people-count" type="text" placeholder="How many?">
+            <input id="people-count" type="number" placeholder="How many?">
         </div>
         <div class="section">
-            <button type="button" id="calc-button">GRATUIFY!</button>
+            <button type="button" id="calc-button">Gratuify</button>
         </div>
 
         <div class="section" id="tip-display">

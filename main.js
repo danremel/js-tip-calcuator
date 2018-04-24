@@ -6,7 +6,7 @@ var calculateTip = function() {
 
     // Validate input entry
     if (billAmount === "" || service === 0) {
-        alert("You must enter all values.");
+        alert("Please enter valid values.");
         return;
     }
 

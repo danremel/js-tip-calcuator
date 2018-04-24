@@ -12,6 +12,11 @@ var calculateTip = function() {
     // If people input is left blank, assume there is one person
     if (peopleCount === "" || peopleCount <= 1) {
         peopleCount = 1;
+
+        // If only one person, hide the word "per person" from the display
+        document.getElementById("per-person").style.display = "none";
+    } else {
+        document.getElementById("per-person").style.display = "block";
     }
 
     // Calculate the tip amount, then divide by number of people.

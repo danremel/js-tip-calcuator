@@ -19,8 +19,13 @@ var calculateTip = function() {
     // Round to two decimals
     tipTotal = Math.round(tipTotal * 100) / 100;
 
-    console.log(tipTotal);
+    // Print the total onto the page
+    document.getElementById("tip-display").style.display = "block";
+    document.getElementById("tip").innerHTML = tipTotal;
 }
+
+// Hide the tip section on initial load
+document.getElementById("tip-display").style.display = "none";
 
 // Click to call the function
 document.getElementById("calc-button").onclick = function() {

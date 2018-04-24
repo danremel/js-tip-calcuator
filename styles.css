@@ -22,8 +22,13 @@ button {
     background: #ffffff;
     text-align: center;
 }
+h3 {
+    font-family: "Sanchez", serif;
+}
 h5 {
     font-family: "Arimo", sans-serif;
+}
+h3, h5 {
     color: #c76034;
     margin: 0;
     padding-bottom: 5px;
@@ -33,6 +38,10 @@ input {
 }
 .section {
     padding-top: 10px;
+}
+#tip-display {
+    font-family: "Arimo", sans-serif;
+    color: #c76034;
 }
 .title {
     font-family: "Sanchez", serif;

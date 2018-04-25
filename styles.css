@@ -1,6 +1,4 @@
 body {
-    height: 100vh;
-    width: 100vw;
     background: #ffffff;
 }
 button {
@@ -21,6 +19,18 @@ button {
     margin: 100px auto;
     background: #ffffff;
     text-align: center;
+}
+.footer {
+    font-family: "Sanchez", serif;
+    color: #c76034;
+    text-align: center;
+    height: 45px;
+}
+.footer a {
+    text-decoration: none;
+    color: #c76034;
+    font-weight: bold;
+    border-bottom: 1px solid #c76034;
 }
 h3 {
     font-family: "Sanchez", serif;

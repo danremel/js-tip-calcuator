@@ -37,7 +37,7 @@ var calculateTip = function() {
 // Hide the tip section on initial load
 document.getElementById("tip-display").style.display = "none";
 
-// Click to call the function
+// Click the button to call the function
 document.getElementById("calc-button").onclick = function() {
     calculateTip();
 };
